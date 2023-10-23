@@ -10,5 +10,6 @@ public interface IPostLogic
     Task UpdateAsync(PostUpdateDto post);
     Task DeleteAsync(int id);
     Task<IEnumerable<Post>?> GetAllAsync();
-    
+    Task<PostBasicDto> GetByIdAsync(int id);
+
 }
