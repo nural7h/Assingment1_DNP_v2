@@ -1,6 +1,7 @@
 ﻿@page "/ViewPosts"
 @using Domain.Models
 @using HttpClients.ClientInterfaces
+@using Domain.DTOs
 @inject IPostService postService;
 <h3>ViewPosts</h3>
 
@@ -19,15 +20,15 @@
 }
 else if (!posts.Any())
 {
-    <span>No users to be found</span>
+    <span>No posts to be found</span>
 }
 else
 {
-    <div class="users-container">
-        @foreach (Post user in posts)
+    <div class="posts-container">
+        @foreach (Post post in posts)
         {
-            <div class="user-card">
-                <label>@user.Title</label>
+            <div class="post-card">
+                <label @onclick="() => ViewPost(post.Id)">@post.Title</label>
             </div>
         }
     </div>
@@ -48,6 +49,20 @@ else
         {
             Console.WriteLine(e);
             msg = e.Message;
+        }
+    }
+
+    private async Task ViewPost(int id)
+    {
+        msg = "";
+        try
+        {
+            PostBasicDto post = await postService.GetPostByIdAsync(id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
         }
     }
 }

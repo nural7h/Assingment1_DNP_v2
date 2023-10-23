@@ -6,4 +6,5 @@ namespace HttpClients.ClientInterfaces;
 public interface IPostService
 {
     Task<ICollection<Post>> ViewAllPostsAsync();
+    Task<PostBasicDto> GetPostByIdAsync(int id);
 }
