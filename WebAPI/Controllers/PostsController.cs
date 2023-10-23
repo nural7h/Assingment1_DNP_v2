@@ -31,7 +31,7 @@ public class PostsController: ControllerBase
         }
     }
     
-    [HttpGet]
+    [HttpGet("posts/{id}")]
     public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId, 
         [FromQuery] string? titleContains)
     {
@@ -40,6 +40,22 @@ public class PostsController: ControllerBase
             SearchPostParametersDto parameters = new(userName, userId,  titleContains);
             var todos = await postLogic.GetAsync(parameters);
             return Ok(todos);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    
+    
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Post>>> GetAllAsync()
+    {
+        try
+        {
+            IEnumerable<Post> list = await postLogic.GetAllAsync();
+            return Created($"/posts/", list);
         }
         catch (Exception e)
         {

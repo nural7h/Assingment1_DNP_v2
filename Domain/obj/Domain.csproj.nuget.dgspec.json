@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

@@ -90,4 +90,11 @@ public class PostLogic: IPostLogic
         if (string.IsNullOrEmpty(post.Title)) throw new Exception("Title cannot be empty.");
         // other validation stuff
     }
+    
+    public async Task<IEnumerable<Post>> GetAllAsync()
+    {
+        return await postDao.GetAllAsync();
+    }
+    
+    
 }
