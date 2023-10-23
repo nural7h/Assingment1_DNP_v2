@@ -31,15 +31,13 @@ public class PostsController: ControllerBase
         }
     }
     
-    [HttpGet("posts/{id}")]
-    public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId, 
-        [FromQuery] string? titleContains)
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<PostBasicDto>> GetById([FromRoute] int id)
     {
         try
         {
-            SearchPostParametersDto parameters = new(userName, userId,  titleContains);
-            var todos = await postLogic.GetAsync(parameters);
-            return Ok(todos);
+            PostBasicDto result = await postLogic.GetByIdAsync(id);
+            return Ok(result);
         }
         catch (Exception e)
         {

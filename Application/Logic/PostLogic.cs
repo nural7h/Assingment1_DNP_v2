@@ -96,5 +96,16 @@ public class PostLogic: IPostLogic
         return await postDao.GetAllAsync();
     }
     
+    public async Task<PostBasicDto> GetByIdAsync(int id)
+    {
+
+        Post? post = await postDao.GetByIdAsync(id);
+        if (post == null)
+        {
+            throw new Exception($"Post with id {id} not found");
+        }
+        return new PostBasicDto(post.Owner.UserName, post.Title, post.Content);
+    }
+    
     
 }
