@@ -13,7 +13,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped(
     sp => 
         new HttpClient { 
-            BaseAddress = new Uri("https://localhost:7255") 
+            BaseAddress = new Uri("http://localhost:5114") 
         }
 );
 builder.Services.AddScoped<IPostService, PostHttpClient>();
