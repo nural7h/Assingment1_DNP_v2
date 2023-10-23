@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorWASM.Data;
+using HttpClients.ClientInterfaces;
+using HttpClients.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,7 @@ builder.Services.AddScoped(
             BaseAddress = new Uri("https://localhost:7255") 
         }
 );
+builder.Services.AddScoped<IPostService, PostHttpClient>();
 
 var app = builder.Build();
 
