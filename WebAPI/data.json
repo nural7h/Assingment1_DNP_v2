@@ -1,0 +1,53 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Nural"
+    },
+    {
+      "Id": 2,
+      "UserName": "nural7h"
+    },
+    {
+      "Id": 3,
+      "UserName": "nuriG"
+    },
+    {
+      "Id": 4,
+      "UserName": "nuralVia"
+    },
+    {
+      "Id": 5,
+      "UserName": "NuralXXXX"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "nural7h"
+      },
+      "Title": "Second post",
+      "Content": "hello i am under the water"
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "First Post!!!",
+      "Content": "update successful"
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 3,
+        "UserName": "nuriG"
+      },
+      "Title": "nuri G post",
+      "Content": "see i am a mexican... i can say wassup n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\FileData.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\FileData.pdb
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\Application.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\Domain.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\Application.pdb
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\bin\Debug\net7.0\Domain.pdb
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\FileData.pdb
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\FileData\obj\Debug\net7.0\ref\FileData.dll
