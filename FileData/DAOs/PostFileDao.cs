@@ -90,4 +90,9 @@ public class PostFileDao: IPostDao
     
         return Task.CompletedTask;
     }
+    
+    public Task<IEnumerable<Post>?> GetAllAsync()
+    {
+        return Task.FromResult<IEnumerable<Post>?>(context?.Posts);
+    }
 }
