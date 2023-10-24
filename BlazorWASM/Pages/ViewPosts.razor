@@ -2,7 +2,11 @@
 @using Domain.Models
 @using HttpClients.ClientInterfaces
 @using Domain.DTOs
+@using UIComponents
 @inject IPostService postService;
+
+
+<link href="../Pages/ViewPosts.razor.css" rel="stylesheet" />
 
 @if (showModal)
 {
@@ -24,9 +28,6 @@
             {
                 <h3>Title: @post.Title</h3>
                 <div class="form-group field">
-                    <label>Owner:@post.OwnerUsername</label>
-                </div>
-                <div class="form-group field">
                     <label>Content:@post.Content</label>
                 </div>
             }
@@ -34,45 +35,49 @@
             {
                 <label style="color: red">@msg</label>
             }
+            
+            <button class="btn btn-secondary close-button" @onclick="CloseModal">Close</button>
         </div>
-
-
     </Modal>
 }
 
 
+<div class="post-container">
+    <h3 class="post-title">ViewPosts</h3>
 
+    @if (!string.IsNullOrEmpty(msg))
+    {
+        <div>
+            <span>@msg</span>
+        </div>
+    }
 
-<h3>ViewPosts</h3>
+    @if (posts == null)
+    {
+        <span>Loading..</span>
+    }
+    else if (!posts.Any())
+    {
+        <span>No posts to be found</span>
+    }
+    else
+    {
+        <div class="posts-container">
+            @foreach (Post post in posts)
+            {
+                <div class="post-card">
+                    <div class="post-container-single">
+                        <label @onclick="() => ViewPost(post.Id)" class="post-title">@post.Title</label>
+                        <div class="post-info">
+                                Posted by @post.Owner.UserName • 1 hour ago
+                            </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
 
-<h3 style="text-align: center">Overview of all posts</h3>
-
-@if (!string.IsNullOrEmpty(msg))
-{
-    <div>
-        <span>@msg</span>
-    </div>
-}
-
-@if (posts == null)
-{
-    <span>Loading..</span>
-}
-else if (!posts.Any())
-{
-    <span>No posts to be found</span>
-}
-else
-{
-    <div class="posts-container">
-        @foreach (Post post in posts)
-        {
-            <div class="post-card">
-                <label @onclick="() => ViewPost(post.Id)">@post.Title</label>
-            </div>
-        }
-    </div>
-}
 
 @code {
     private IEnumerable<Post>? posts;
@@ -108,5 +113,10 @@ else
             Console.WriteLine(e);
             throw;
         }
+    }
+
+    private void CloseModal()
+    {
+        showModal = false;
     }
 }
