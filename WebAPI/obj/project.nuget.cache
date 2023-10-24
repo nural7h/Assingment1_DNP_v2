@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6eVpIj0elQLorwOb9ktop4que7vfqswwDckXjhzlqGgCVEePuo5+75nuxF0/+tLNp+i/YF9CMjg3lvv8DM0y1A==",
+  "dgSpecHash": "mfnCwzGy4lVjX0+T3P3s0EhQgynjX40rMI8QI0/TB90U3f1udc4s5BUAdvxh8/nQunHXwanhx0W+7il+EMLO9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

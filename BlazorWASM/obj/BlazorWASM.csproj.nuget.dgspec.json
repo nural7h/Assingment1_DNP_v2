@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj": {}
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\BlazorWASM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj": {
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\BlazorWASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\BlazorWASM.csproj",
         "projectName": "BlazorWASM",
-        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
+        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\BlazorWASM.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\",
+        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"

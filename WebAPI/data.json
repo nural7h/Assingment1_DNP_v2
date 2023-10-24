@@ -48,6 +48,33 @@
       },
       "Title": "nuri G post",
       "Content": "see i am a mexican... i can say wassup n"
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "My post ",
+      "Content": "hello sunshine\n"
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "hi my friends ",
+      "Content": "2nd post as me"
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "asdsaddsasd",
+      "Content": "asdfsghmj,l;\u0027llkjkhgfdscxawdefghj.\n"
     }
   ]
 }

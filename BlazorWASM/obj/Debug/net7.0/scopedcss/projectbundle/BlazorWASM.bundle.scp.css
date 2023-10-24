@@ -1,3 +1,60 @@
+/* _content/BlazorWASM/Pages/CreatePost.razor.rz.scp.css */
+/* styles.css */
+.section-title[b-ceegisofnu] {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card.post-form[b-ceegisofnu] {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group[b-ceegisofnu] {
+    margin-bottom: 15px;
+}
+
+label[b-ceegisofnu] {
+    font-weight: bold;
+}
+
+.form-control[b-ceegisofnu] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea.form-control[b-ceegisofnu] {
+    height: 150px;
+}
+
+.button-row[b-ceegisofnu] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error-message[b-ceegisofnu] {
+    color: red;
+}
+
+.btn.create-button[b-ceegisofnu] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn.create-button:hover[b-ceegisofnu] {
+    background-color: #0056b3;
+}
 /* _content/BlazorWASM/Pages/UIComponents/Modal.razor.rz.scp.css */
 .modal-background[b-sp2tgkowl2] { /* This style class makes the background darker, and un-clickable */
     position: fixed; /* Stay in place */
@@ -23,6 +80,47 @@
     min-width: 300px;
     border-radius: 25px;
     box-shadow: 0 5px 30px 15px #3f3f3f;
+}
+/* _content/BlazorWASM/Pages/ViewPosts.razor.rz.scp.css */
+/* styles.css */
+
+.post-container-single[b-lj17aabdv5] {
+    border: 2px solid #2b2b2b;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title[b-lj17aabdv5] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.post-content[b-lj17aabdv5] {
+    font-size: 16px;
+    color: #555;
+}
+
+.post-info[b-lj17aabdv5] {
+    font-size: 14px;
+    color: #888;
+}
+
+/* styles.css */
+.close-button[b-lj17aabdv5] {
+    background-color: #f44336; /* Red background color */
+    color: white;             /* White text color */
+    border: none;             /* No border */
+    padding: 10px 20px;       /* Padding around the button text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 /* _content/BlazorWASM/Shared/MainLayout.razor.rz.scp.css */
 .page[b-jk00ermrez] {

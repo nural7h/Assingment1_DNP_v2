@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dzFXHf2mhjBT1tWVUL142r6s3iWw1vr6dq5ke4luQ3UMVVVnWQMJYftTw2+tKaLeOV9LEt0+FM5pZPgFUV2UIQ==",
+  "dgSpecHash": "RgZBJrZTbyZT0dP47ZuMuOwutgHfQJO66c83WAz+tvn0WHVqcrWiM7wZKGK3N0Y92eRnDX/rygQdaDKLoTPFxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
+  "projectFilePath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\blazorwasm\\BlazorWASM.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

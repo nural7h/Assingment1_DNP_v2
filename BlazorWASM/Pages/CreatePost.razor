@@ -1,7 +1,71 @@
 ﻿@page "/CreatePost"
 @using Domain.DTOs
-<h3>CreatePost</h3>
+@using UIComponents
+@using HttpClients.ClientInterfaces
+@inject NavigationManager navMgr
+@inject IPostService iPostService
+@inject IUserService iUserService
+
+<Modal ShowModal="showModal">
+    <p>Your post has been added successfully</p>
+    <button @onclick="@Proceed">Ok</button>
+</Modal>
+
+
+<h3 class="section-title">Create a Post</h3>
+
+<div class="card post-form">
+    <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" @bind="title" class="form-control" id="title" />
+    </div>
+    <div class="form-group">
+        <label for="body">Body:</label>
+        <textarea @bind="context" class="form-control" id="body"></textarea>
+    </div>
+    <div class="button-row">
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <label class="error-message">@msg</label>
+        }
+        <button @onclick="Create" class="btn create-button">Create Post</button>
+    </div>
+</div>
+
 
 @code {
+    private string title = "";
+    private string context="";
+    private bool showModal;
+    private string msg = "";
     
+    
+    private void Proceed()
+    {
+        showModal = false;
+        navMgr.NavigateTo("/ViewPosts");
+    }
+    
+    private async Task Create()
+    {
+        msg = "";
+       
+        if (string.IsNullOrEmpty(title))
+        {
+            msg = "Title cannot be empty!";
+            return;
+        }
+
+        try
+        {
+            PostCreationDto dto = new PostCreationDto(1, title, context);
+            await iPostService.CreatePost(dto);
+            showModal = true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
 }
