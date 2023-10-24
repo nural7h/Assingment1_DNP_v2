@@ -72,3 +72,4 @@ C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\BlazorWASM.pdb
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\BlazorWASM.genruntimeconfig.cache
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\ref\BlazorWASM.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css

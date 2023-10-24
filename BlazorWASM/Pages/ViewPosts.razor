@@ -3,6 +3,46 @@
 @using HttpClients.ClientInterfaces
 @using Domain.DTOs
 @inject IPostService postService;
+
+@if (showModal)
+{
+    <Modal ShowModal="showModal">
+        <div class="card">
+            @if (posts == null)
+            {
+                <label>Loading users...</label>
+            }
+            else if (!posts.Any())
+            {
+                <label>No users, you cannot create a Todo</label>
+            }
+            else if (post == null)
+            {
+                <label>Loading Todo data..</label>
+            }
+            else
+            {
+                <h3>Title: @post.Title</h3>
+                <div class="form-group field">
+                    <label>Owner:@post.OwnerUsername</label>
+                </div>
+                <div class="form-group field">
+                    <label>Content:@post.Content</label>
+                </div>
+            }
+            @if (!string.IsNullOrEmpty(msg))
+            {
+                <label style="color: red">@msg</label>
+            }
+        </div>
+
+
+    </Modal>
+}
+
+
+
+
 <h3>ViewPosts</h3>
 
 <h3 style="text-align: center">Overview of all posts</h3>
@@ -37,6 +77,8 @@ else
 @code {
     private IEnumerable<Post>? posts;
     private string msg = "";
+    private PostBasicDto post=null!;
+    private bool showModal = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -57,7 +99,9 @@ else
         msg = "";
         try
         {
-            PostBasicDto post = await postService.GetPostByIdAsync(id);
+            PostBasicDto result = await postService.GetPostByIdAsync(id);
+            post = result;
+            showModal = true;
         }
         catch (Exception e)
         {
