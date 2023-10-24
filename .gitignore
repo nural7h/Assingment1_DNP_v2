@@ -40,3 +40,16 @@ Thumbs.db
 # Ignore log files and other runtime data
 *.log
 *.config
+FileData/obj/Debug/net7.0/FileData.csproj.AssemblyReference.cache
+FileData/obj/Debug/net7.0/FileData.csproj.AssemblyReference.cache
+HttpClients/bin/Debug/net7.0/HttpClients.dll
+HttpClients/bin/Debug/net7.0/HttpClients.pdb
+*.props
+WebAPI/obj/
+WebAPI/bin/
+HttpClients/obj/
+HttpClients/bin/
+FileData/obj/
+BlazorWASM/obj/
+BlazorWASM/bin/
+Application/obj/
