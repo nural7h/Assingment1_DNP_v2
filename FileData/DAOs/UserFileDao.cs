@@ -30,11 +30,13 @@ public class UserFileDao: IUserDao
         return Task.FromResult(user);
     }
 
-    public Task<User?> GetByUsernameAsync(string userName)
+    public Task<User?> GetUserAsync(string userName,string password)
     {
         User? existing = context.Users.FirstOrDefault(u =>
-            u.UserName.Equals(userName, StringComparison.OrdinalIgnoreCase)
+            u.UserName.Equals(userName, StringComparison.OrdinalIgnoreCase) && u.Password.Equals(password, StringComparison.OrdinalIgnoreCase)
         );
+       
+        
         return Task.FromResult(existing);
     }
 
@@ -55,5 +57,10 @@ public class UserFileDao: IUserDao
             u.Id == id
         );
         return Task.FromResult(existing);
+    }
+
+    public Task<IEnumerable<User>?> GetAllAsync()
+    {
+        return Task.FromResult<IEnumerable<User>?>(context?.Users);
     }
 }

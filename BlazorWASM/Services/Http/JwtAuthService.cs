@@ -9,8 +9,7 @@ namespace BlazorWASM.Services.Http;
 public class JwtAuthService: IAuthService
 {
     private readonly HttpClient client = new ();
-
-    // this private variable for simple caching
+    
     public static string? Jwt { get; private set; } = "";
 
     public Task<ClaimsPrincipal> GetAuthAsync()
@@ -70,7 +69,7 @@ public class JwtAuthService: IAuthService
 
         string userAsJson = JsonSerializer.Serialize(userLoginDto);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");
-
+        
         HttpResponseMessage response = await client.PostAsync("https://localhost:7093/auth/login", content);
         string responseContent = await response.Content.ReadAsStringAsync();
 
@@ -99,7 +98,7 @@ public class JwtAuthService: IAuthService
     {
         string userAsJson = JsonSerializer.Serialize(user);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");
-        HttpResponseMessage response = await client.PostAsync("https://localhost:7130/auth/register", content);
+        HttpResponseMessage response = await client.PostAsync("https://localhost:7093/auth/register", content);
         string responseContent = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)

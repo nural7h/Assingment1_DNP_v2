@@ -340,19 +340,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nural\\.nuget\\packages\\": {}
+    "C:\\Users\\Ricardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\FileData\\FileData.csproj",
+      "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\FileData\\FileData.csproj",
-      "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\FileData\\obj\\",
+      "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\FileData\\FileData.csproj",
+      "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -364,8 +364,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Application\\Application.csproj"
+            "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Application\\Application.csproj"
             }
           }
         }

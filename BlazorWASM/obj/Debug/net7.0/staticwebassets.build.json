@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NK/eOclOSpMpuU35azAI47ErCti4I9TMionnqnVcH38=",
+  "Hash": "x/djF90PNeyX9ghMC2pWNqkbXD1tuvcCTvUXOvuW/sg=",
   "Source": "BlazorWASM",
   "BasePath": "_content/BlazorWASM",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorWASM\\wwwroot",
       "Source": "BlazorWASM",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorWASM.styles.css",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorWASM.styles.css",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "BlazorWASM.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorWASM.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorWASM.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorWASM.bundle.scp.css",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorWASM.bundle.scp.css",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "BlazorWASM.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorWASM.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorWASM.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\css\\site.css",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\favicon.png",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Login.png",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Login.png",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "img/Login.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Login.png"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Logout.png",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Logout.png",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "img/Logout.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logout.png"
     },
     {
-      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\wassupn.jpg",
+      "Identity": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\wassupn.jpg",
       "SourceId": "BlazorWASM",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
       "BasePath": "_content/BlazorWASM",
       "RelativePath": "img/wassupn.jpg",
       "AssetKind": "All",

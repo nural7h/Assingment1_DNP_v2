@@ -14,15 +14,15 @@
         <div class="card">
             @if (posts == null)
             {
-                <label>Loading users...</label>
+                <label>Loading posts...</label>
             }
             else if (!posts.Any())
             {
-                <label>No users, you cannot create a Todo</label>
+                <label>No posts</label>
             }
             else if (post == null)
             {
-                <label>Loading Todo data..</label>
+                <label>Loading Posts data..</label>
             }
             else
             {
@@ -69,7 +69,7 @@
                     <div class="post-container-single">
                         <label @onclick="() => ViewPost(post.Id)" class="post-title">@post.Title</label>
                         <div class="post-info">
-                                Posted by @post.Owner.UserName • 1 hour ago
+                                Posted by @post.Owner.UserName 
                             </div>
                     </div>
                 </div>

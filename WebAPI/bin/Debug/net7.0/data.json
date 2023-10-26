@@ -2,23 +2,28 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Nural"
+      "UserName": "Nural",
+      "Password": null
     },
     {
       "Id": 2,
-      "UserName": "nural7h"
+      "UserName": "nural7h",
+      "Password": null
     },
     {
       "Id": 3,
-      "UserName": "nuriG"
+      "UserName": "nuriG",
+      "Password": null
     },
     {
       "Id": 4,
-      "UserName": "nuralVia"
+      "UserName": "nuralVia",
+      "Password": null
     },
     {
       "Id": 5,
-      "UserName": "NuralXXXX"
+      "UserName": "fernandes21",
+      "Password": "123321"
     }
   ],
   "Posts": [
@@ -26,7 +31,8 @@
       "Id": 2,
       "Owner": {
         "Id": 2,
-        "UserName": "nural7h"
+        "UserName": "nural7h",
+        "Password": null
       },
       "Title": "Second post",
       "Content": "hello i am under the water"
@@ -35,7 +41,8 @@
       "Id": 1,
       "Owner": {
         "Id": 1,
-        "UserName": "Nural"
+        "UserName": "Nural",
+        "Password": null
       },
       "Title": "First Post!!!",
       "Content": "update successful"
@@ -44,7 +51,8 @@
       "Id": 3,
       "Owner": {
         "Id": 3,
-        "UserName": "nuriG"
+        "UserName": "nuriG",
+        "Password": null
       },
       "Title": "nuri G post",
       "Content": "see i am a mexican... i can say wassup n"
@@ -52,50 +60,12 @@
     {
       "Id": 4,
       "Owner": {
-        "Id": 1,
-        "UserName": "Nural"
+        "Id": 5,
+        "UserName": "fernandes21",
+        "Password": "123321"
       },
-      "Title": "My post ",
-      "Content": "hello sunshine\n"
-    },
-    {
-      "Id": 5,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Nural"
-      },
-      "Title": "hi my friends ",
-      "Content": "2nd post as me"
-    },
-    {
-      "Id": 6,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Nural"
-      },
-      "Title": "asdsaddsasd",
-      "Content": "asdfsghmj,l;\u0027llkjkhgfdscxawdefghj.\n"
-<<<<<<< HEAD
-=======
-    },
-    {
-      "Id": 7,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Nural"
-      },
-      "Title": "third post",
-      "Content": "hello third post"
-    },
-    {
-      "Id": 8,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Nural"
-      },
-      "Title": "where did the code go ",
-      "Content": "pokaraliu"
->>>>>>> main
+      "Title": "hello im fernandes",
+      "Content": "no contant"
     }
   ]
 }

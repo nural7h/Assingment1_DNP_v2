@@ -1,7 +1,11 @@
 ﻿@page "/Login"
 @using BlazorWASM.Services
+@using Domain.DTOs
+@using Domain.Models
+@using HttpClients.ClientInterfaces
 @inject IAuthService authService
 @inject NavigationManager navMgr
+@inject IUserService iUserService
 
 <AuthorizeView>
     <NotAuthorized>
@@ -25,6 +29,9 @@
             }
             <div class="field">
                 <button class="loginbtn" @onclick="LoginAsync">Log in</button>
+            </div>
+            <div class="field">
+                <button class="loginbtn" @onclick="RegisterAsync">Register</button>
             </div>
         </div>
     </NotAuthorized>
@@ -54,4 +61,31 @@
             errorLabel = $"Error: {e.Message}";
         }
     }
+
+    private async Task RegisterAsync()
+    {
+        
+            UserLoginDto user = new UserLoginDto()
+            {
+                Username = userName,
+                Password = password
+            };
+
+            try
+            {
+                await iUserService.RegisterUserAsync(user);
+                
+                
+                await authService.LoginAsync(userName, password);
+                navMgr.NavigateTo("/");
+           
+               
+            }
+            catch (Exception e)
+            {
+                errorLabel = $"Error: {e.Message}";
+            }
+        }
+    
+
 }

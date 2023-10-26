@@ -84,3 +84,13 @@ C:\Users\nural\RiderProjects\Assingment1_DNP_v2\BlazorWASM\bin\Debug\net7.0\Micr
 C:\Users\nural\RiderProjects\Assingment1_DNP_v2\BlazorWASM\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\nural\RiderProjects\Assingment1_DNP_v2\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\Login.razor.rz.scp.css
 C:\Users\nural\RiderProjects\Assingment1_DNP_v2\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css
+C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\blazorwasm\obj\Debug\net7.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {}
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {
+    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj",
-        "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\obj\\",
+        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -85,8 +85,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Domain\\Domain.csproj"
+              "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\Domain\\Domain.csproj"
               }
             }
           }
