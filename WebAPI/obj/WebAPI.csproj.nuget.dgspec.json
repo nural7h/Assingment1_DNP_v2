@@ -1,11 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\WebAPI\\WebAPI.csproj": {}
-=======
-    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\WebAPI.csproj": {}
->>>>>>> Ricardo
   },
   "projects": {
     "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\Application\\Application.csproj": {
@@ -175,7 +171,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -184,16 +179,6 @@
         "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\WebAPI\\obj\\",
-=======
-    "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\WebAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\webapi\\obj\\",
->>>>>>> Ricardo
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
