@@ -20,3 +20,4 @@ C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\Domain\obj\Debug\net7.0\Dom
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache

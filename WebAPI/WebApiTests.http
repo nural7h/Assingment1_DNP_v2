@@ -1,0 +1,10 @@
+// log in as Troels
+POST https://localhost:7093/auth/login
+Content-Type: application/json
+
+{ "Username" : "nural", "Password" : "password" }
+
+###
+
+GET https://localhost:7093/test/mustbevia
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI3MGNmYzcwNi0wZDVlLTQ3MDktOGMzOS0wOTBlM2U2MWU4ZDMiLCJpYXQiOiIyNi8xMC8yMDIzIDA3LjU3LjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Im51cmFsIiwiZXhwIjoxNjk4MzEwNjY3LCJpc3MiOiJKV1RBdXRoZW50aWNhdGlvblNlcnZlciIsImF1ZCI6IkpXVFNlcnZpY2VCbGF6b3JXYXNtQ2xpZW50In0.FyBkv6YEtGev6Tx-H2-Hhf7vGf3GvJ0Ovz2JdkM_7bfMuMxEyB9I4Z6zU03HEZeTpcNPRB_IgMdXafEKOMieaw

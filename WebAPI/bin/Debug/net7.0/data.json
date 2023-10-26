@@ -75,6 +75,27 @@
       },
       "Title": "asdsaddsasd",
       "Content": "asdfsghmj,l;\u0027llkjkhgfdscxawdefghj.\n"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Id": 7,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "third post",
+      "Content": "hello third post"
+    },
+    {
+      "Id": 8,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nural"
+      },
+      "Title": "where did the code go ",
+      "Content": "pokaraliu"
+>>>>>>> main
     }
   ]
 }
