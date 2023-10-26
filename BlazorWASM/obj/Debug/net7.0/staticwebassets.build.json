@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qh6pfQbSQtbYZFZqBp+SUsC0wq5wc4edAc5PiTmNFLY=",
+  "Hash": "NK/eOclOSpMpuU35azAI47ErCti4I9TMionnqnVcH38=",
   "Source": "BlazorWASM",
   "BasePath": "_content/BlazorWASM",
   "Mode": "Default",
@@ -270,6 +270,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Login.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "BasePath": "_content/BlazorWASM",
+      "RelativePath": "img/Login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Login.png"
+    },
+    {
+      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\Logout.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "BasePath": "_content/BlazorWASM",
+      "RelativePath": "img/Logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logout.png"
+    },
+    {
+      "Identity": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\img\\wassupn.jpg",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\wwwroot\\",
+      "BasePath": "_content/BlazorWASM",
+      "RelativePath": "img/wassupn.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\wassupn.jpg"
     }
   ]
 }

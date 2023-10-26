@@ -78,3 +78,14 @@ C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\webapi\obj\Debug\net7.0\ref
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\webapi\obj\Debug\net7.0\WebAPI.pdb
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\webapi\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\Ricardo\Documents\GitHub\Assingment1_DNP_v2\webapi\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nural\RiderProjects\Assingment1_DNP_v2\WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
