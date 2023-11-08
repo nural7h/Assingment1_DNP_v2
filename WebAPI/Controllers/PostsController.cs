@@ -1,6 +1,7 @@
 ﻿using Application.LogicInterfaces;
 using Domain.DTOs;
 using Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
@@ -16,7 +17,7 @@ public class PostsController: ControllerBase
         this.postLogic = postLogic;
     }
     
-    [HttpPost]
+    [HttpPost,Authorize]
     public async Task<ActionResult<Post>> CreateAsync([FromBody]PostCreationDto dto)
     {
         try
