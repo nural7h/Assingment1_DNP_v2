@@ -1,16 +1,21 @@
-﻿namespace Domain.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Models;
 
 public class Post
 {
+    [Key]
     public int Id { get; set; }
-    public User Owner { get; }
-    public string Title { get; }
+    public User Owner { get; set; }
+    public int OwnerId { get; set; }
+    public string Title { get; set; }
     public string Content { get; set; }
 
-    public Post(User owner, string title, string content)
+    public Post(int ownerId, string title, string content)
     {
-        Owner = owner;
+        OwnerId = ownerId;
         Title = title;
         Content = content;
     }
+    public Post(){}
 }

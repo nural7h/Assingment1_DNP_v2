@@ -25,7 +25,7 @@ public class PostLogic: IPostLogic
         }
 
         ValidateTodo(dto);
-        Post post = new Post(user, dto.Title, dto.Content);
+        Post post = new Post(user.Id, dto.Title, dto.Content);
         Post created = await postDao.CreateAsync(post);
         return created;
     }
@@ -58,7 +58,7 @@ public class PostLogic: IPostLogic
         string titleToUse = dto.Title ?? existing.Title;
         string contentToUse = dto.Content ?? existing.Content;
     
-        Post updated = new (userToUse, titleToUse,contentToUse)
+        Post updated = new (userToUse.Id, titleToUse,contentToUse)
         {
             Content = contentToUse,
             Id = existing.Id,

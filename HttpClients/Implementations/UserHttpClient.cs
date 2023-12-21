@@ -7,7 +7,6 @@ namespace HttpClients.Implementations;
 
 public class UserHttpClient: IUserService
 {
-    
     private readonly HttpClient client;
 
     public UserHttpClient(HttpClient client)

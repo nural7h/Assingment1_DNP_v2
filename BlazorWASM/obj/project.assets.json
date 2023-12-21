@@ -427,19 +427,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ricardo\\.nuget\\packages\\": {}
+    "C:\\Users\\nural\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
+      "projectUniqueName": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
       "projectName": "BlazorWASM",
-      "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
-      "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\BlazorWASM\\obj\\",
+      "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\BlazorWASM.csproj",
+      "packagesPath": "C:\\Users\\nural\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\BlazorWASM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nural\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -451,8 +451,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\Documents\\GitHub\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\nural\\RiderProjects\\Assingment1_DNP_v2\\HttpClients\\HttpClients.csproj"
             }
           }
         }

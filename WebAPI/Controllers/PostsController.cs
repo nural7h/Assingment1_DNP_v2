@@ -48,11 +48,12 @@ public class PostsController: ControllerBase
     
     
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Post>>> GetAllAsync()
+    public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery]string? username, int? userId, string? titleContains)
     {
         try
         {
-            IEnumerable<Post> list = await postLogic.GetAllAsync();
+            SearchPostParametersDto parameters = new SearchPostParametersDto(username, userId, titleContains);
+            IEnumerable<Post> list = await postLogic.GetAsync(parameters).ConfigureAwait(false);
             return Created($"/posts/", list);
         }
         catch (Exception e)

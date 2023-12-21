@@ -91,7 +91,7 @@
         {
             PostCreationDto dto = new PostCreationDto(id, title, context);
             await iPostService.CreatePost(dto);
-            showModal = true;
+            showModal = true; 
         }
         catch (Exception e)
         {

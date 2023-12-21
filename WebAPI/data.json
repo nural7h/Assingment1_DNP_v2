@@ -24,39 +24,29 @@
       "Id": 5,
       "UserName": "fernandes21",
       "Password": "123321"
+    },
+    {
+      "Id": 6,
+      "UserName": "nur_hsn",
+      "Password": "password"
+    },
+    {
+      "Id": 7,
+      "UserName": "nural_hasan",
+      "Password": "password"
+    },
+    {
+      "Id": 8,
+      "UserName": "lala",
+      "Password": "1234"
+    },
+    {
+      "Id": 9,
+      "UserName": "julija",
+      "Password": "1234"
     }
   ],
   "Posts": [
-    {
-      "Id": 2,
-      "Owner": {
-        "Id": 2,
-        "UserName": "nural7h",
-        "Password": null
-      },
-      "Title": "Second post",
-      "Content": "hello i am under the water"
-    },
-    {
-      "Id": 1,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Nural",
-        "Password": null
-      },
-      "Title": "First Post!!!",
-      "Content": "update successful"
-    },
-    {
-      "Id": 3,
-      "Owner": {
-        "Id": 3,
-        "UserName": "nuriG",
-        "Password": null
-      },
-      "Title": "nuri G post",
-      "Content": "see i am a mexican... i can say wassup n"
-    },
     {
       "Id": 4,
       "Owner": {
@@ -66,6 +56,26 @@
       },
       "Title": "hello im fernandes",
       "Content": "no contant"
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 7,
+        "UserName": "nural_hasan",
+        "Password": "password"
+      },
+      "Title": "nural top g",
+      "Content": "hello"
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 8,
+        "UserName": "lala",
+        "Password": "1234"
+      },
+      "Title": "test",
+      "Content": "does it work"
     }
   ]
 }
